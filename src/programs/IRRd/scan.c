@@ -274,7 +274,7 @@ char *scan_irr_file (irr_database_t *database, char *extension,
  */
 void *scan_irr_file_main (FILE *fp, irr_database_t *database, 
                           int update_flag, enum SCAN_T scan_scope) {
-  char buffer[4096], *cp, *p = NULL;
+  char buffer[12288], *cp, *p = NULL;
   char first_attr[128];
   u_long save_offset, offset, position, mode, len = 0;
   irr_object_t *irr_object;
