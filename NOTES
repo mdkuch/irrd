@@ -1,3 +1,9 @@
+ Jan 07, 2019      IRRd 2.0.9   Release notes
+   Bumping the version number to indicate to package maintainers that
+   many small but significant changes have been introduced to
+   IRRd since 3.0.8. This release note is poor and administrators
+   should refer to the commit history.
+
  Apr 25, 2014	   IRRd 3.0.8   Release notes
    Add "reply_from" config option to allow setting of "From:" and
    "Reply-to" email address in repsonses from irr_rpsl_submit.
